@@ -1,0 +1,67 @@
+/* Navbar Styles */
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #007bff, #6c757d);
+}
+.nav-link {
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+    color: #f8f9fa;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Add background to arrows */
+    border-radius: 50%;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.about-section .card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image is cropped but fills the area */
+    object-position: center; /* Centers the image within the container */
+}
+
+
+.about-section h2 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the heading */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    color: #333; /* Dark gray text color */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 2px; /* Adds spacing between letters */
+    border-bottom: 2px solid #007bff; /* Adds a decorative underline */
+    padding-bottom: 10px; /* Adds spacing below the text and above the line */
+    width: fit-content; /* Adjusts the width to fit the content */
+    margin-left: auto; /* Centers the heading horizontally */
+    margin-right: auto; /* Centers the heading horizontally */
+    background-color: rgb(33, 100, 33), rgb(31, 31, 87), rgb(110, 110, 30);
+}
+
+.about-section .btn {
+    position: sticky; /* Makes the button sticky */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    z-index: 1000; /* Ensures the button appears above other content */
+    display: inline-block; /* Keeps the button inline and clickable */
+    margin: 10px auto; /* Optional: centers the button horizontally */
+    border-radius: 30px;
+}
+

@@ -1,0 +1,126 @@
+/* CSS/style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Feedback Section */
+.feedback-section {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Navbar Styles */
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #007bff, #6c757d);
+}
+.nav-link {
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+    color: #f8f9fa;
+}
+.navbar-toggler {
+    border-color: white;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Rating */
+.rating {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.rating input:checked + label {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+}
+
+/* Textarea */
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Feedback Message */
+.feedback-message {
+    text-align: center;
+    margin-top: 1rem;
+    color: #4caf50;
+}

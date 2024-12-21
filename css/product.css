@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  /* Navbar Styles */
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #007bff, #6c757d);
+}
+.nav-link {
+  font-weight: bold;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #f8f9fa;
+}
+.navbar-toggler {
+  border-color: white;
+}
+
+  /* Header Section */
+  header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  /* Carousel Section */
+  #utensils-carousel {
+    position: relative;
+    margin-top: 20px;
+  }
+  .carousel-inner img {
+    border-radius: 15px;
+    max-height: 600px;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* Carousel Control Buttons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
